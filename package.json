@@ -1,6 +1,6 @@
 {
   "name": "react-native-strapi-auth-providers",
-  "version": "0.1.0",
+  "version": "0.1.1-alpha.0",
   "description": "Use OAuth and OAuth2 providers through Strapi to enable authentication in your React Native application",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
