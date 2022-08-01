@@ -5,7 +5,7 @@ Use OAuth and OAuth2 providers through Strapi to enable authentication in your R
 ## Installation
 
 ```sh
-yarn add react-native-webview react-native-strapi-auth-providers
+yarn add react-native-webview react-native-strapi-auth-providers@alpha
 npx pod-install
 ```
 
