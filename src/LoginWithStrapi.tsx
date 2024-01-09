@@ -83,6 +83,7 @@ type CancelBtnColorProp =
 
 type Props = {
   lang?: Languages;
+  incognito?: boolean;
   provider: Providers;
   redirectUrl: string;
   backendUrl: string;
@@ -97,6 +98,7 @@ type Props = {
 
 export const StrapiAuthLogin = ({
   isVisisble,
+  incognito,
   lang,
   redirectUrl,
   backendUrl,
@@ -205,6 +207,7 @@ export const StrapiAuthLogin = ({
               'Accept-Language': lang ?? 'en',
             },
           }}
+          incognito={incognito}
           startInLoadingState
           onError={(err: unknown) => console.log({ err })}
           onMessage={(msg: unknown) => console.log({ msg })}
